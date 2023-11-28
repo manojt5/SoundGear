@@ -76,10 +76,9 @@ function Signup() {
     const [submitted, setSubmitted] = useState(false); // New state variable
 
     const handleSubmit = (event) => {
-        //console.log(values)
+        //Don't enter password having symbols
         event.preventDefault();
         setErrors(Signupvalidation(values));
-        //console.log( Signupvalidation(values))
         setSubmitted(true); // Set submitted to true when the form is submitted
     };
 

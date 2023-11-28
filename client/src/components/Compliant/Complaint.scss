@@ -1,0 +1,182 @@
+// /* Complaint.scss */
+// @import "../../css-config/mixins.scss";
+// /* Style for the entire Complaint Form container */
+// .comp{
+//     /* ResponsiveComplaintForm.scss */
+
+// /* Style for the entire Complaint Form container */
+// margin:50px auto;
+// div {
+//     width: 100%;
+//     max-width: 400px;
+//     margin: 0 auto;
+//     padding: 20px;
+//     border: 1px solid #ddd;
+//     border-radius: 5px;
+//     background-color: #fff;
+//     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+//   }
+  
+//   /* Style for the form header */
+//   h2 {
+//     font-size: 24px;
+//     margin-bottom: 20px;
+//     text-align: center;
+//     color: #333;
+//   }
+  
+//   /* Style for the form content */
+//   .form-content {
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content: space-between;
+//   }
+  
+//   /* Style for form groups (each input and label pair) */
+//   .form-group {
+//     flex-basis: calc(50% - 10px);
+//     margin-bottom: 15px;
+//     padding-right: 10px;
+//   }
+  
+//   /* Style for labels */
+//   label {
+//     display: block;
+//     font-size: 16px;
+//     font-weight: bold;
+//     margin-bottom: 5px;
+//     color: #333;
+//   }
+  
+//   /* Style for text inputs and textareas */
+//   input[type="text"],
+//   input[type="email"],
+//   input[type="tel"],
+//   textarea {
+//     width: 100%;
+//     padding: 10px;
+//     font-size: 16px;
+//     border: 1px solid #ccc;
+//     border-radius: 5px;
+//     background-color: #f9f9f9;
+//     color: #333;
+//   }
+  
+//   /* Style for the submit button */
+//   button[type="submit"] {
+//     width: 100%;
+//     padding: 10px;
+//     font-size: 18px;
+//     border: none;
+//     border-radius: 5px;
+//     background-color: #007bff;
+//     color: #fff;
+//     cursor: pointer;
+//     transition: background-color 0.3s ease-in-out;
+//   }
+  
+//   /* Hover effect for the submit button */
+//   button[type="submit"]:hover {
+//     background-color: #0056b3;
+//   }
+  
+//   /* Media query for smaller screens (e.g., mobile devices) */
+//   @media screen and (max-width: 768px) {
+//     /* Adjust the form content to a single column layout */
+//     .form-content {
+//       flex-direction: column;
+//     }
+  
+//     /* Reset flex-basis for form groups to occupy full width */
+//     .form-group {
+//       flex-basis: 100%;
+//       padding-right: 0;
+//     }
+//   }
+  
+      
+// }
+/* Complaint.scss */
+
+/* Style for the entire Complaint Form container */
+.comp {
+    display: flex;
+    justify-content: center; /* Center align horizontally */
+    align-items: center; /* Center align vertically */
+    height: calc(100vh - 80px);
+ /* Make the container full height */
+    
+    /* Style for the image container (left side) */
+    .image-container {
+        margin: auto;
+        img{
+            height: 400px;
+        }
+        height: calc(100vh - 80px);;
+        width: 30vw;
+        margin-top: 0;
+      flex: 1; /* Occupy 50% of the width */
+      padding: 20px; /* Add some padding */
+      display: flex;
+      justify-content: end; /* Center the image horizontally */
+      align-items: center; /* Center the image vertically */
+    }
+  
+    /* Style for the form container (right side) */
+    .form {
+      flex: 1; /* Occupy 50% of the width */
+      padding: 20px; /* Add some padding */
+      display: flex;
+      flex-direction: column; /* Stack form elements vertically */
+      justify-content: center; /* Center the form vertically */
+      align-items: center; /* Center the form horizontally */
+      //max-width: 600px; /* Limit the form width */
+    //   width: 500px;
+    }
+  
+    /* Add any additional styling for your form elements here */
+    /* For example, you can style labels, inputs, and the submit button */
+    .form-group {
+      margin-bottom: 15px;
+      width: 150%;
+      margin-right: 20px;
+    }
+  
+    label {
+      display: block;
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 5px;
+      color: #333;
+    }
+  
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+  
+    button[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      font-size: 18px;
+      border: none;
+      border-radius: 5px;
+      background-color: #8e2de2;
+      color: #fff;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out;
+    }
+  
+    button[type="submit"]:hover {
+      background-color: #561c88;
+    }
+  }
+  

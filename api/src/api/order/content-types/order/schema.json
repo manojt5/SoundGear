@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "singularName": "order",
+    "pluralName": "orders",
+    "displayName": "order",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email",
+      "default": "ganesh@gmail.com"
+    },
+    "stripeId": {
+      "type": "text"
+    },
+    "products": {
+      "type": "json"
+    },
+    "OrderID": {
+      "type": "biginteger"
+    }
+  }
+}

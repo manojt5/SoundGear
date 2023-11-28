@@ -1,0 +1,23 @@
+.about-page {
+    /* Styles for the whole page */
+    line-height: 40px;
+    .about-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 50px 20px;
+      
+      h1 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+      }
+      
+      p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        margin-bottom: 30px;
+      }
+      
+      /* Style other sections as needed */
+    }
+  }
+  

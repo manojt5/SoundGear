@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "templatings",
+  "info": {
+    "singularName": "templating",
+    "pluralName": "templatings",
+    "displayName": "templating",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "BanTitle": {
+      "type": "string"
+    },
+    "BannerDesc": {
+      "type": "text"
+    },
+    "BannerImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "FooterAbout": {
+      "type": "text"
+    },
+    "FooterCopyright": {
+      "type": "string"
+    },
+    "FooterPaymentImg": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

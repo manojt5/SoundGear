@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contact_footers",
+  "info": {
+    "singularName": "contact-footer",
+    "pluralName": "contact-footers",
+    "displayName": "ContactFooter",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Address": {
+      "type": "string"
+    },
+    "MobileNumber": {
+      "type": "string"
+    },
+    "EmailID": {
+      "type": "email"
+    },
+    "SocialURL": {
+      "type": "string"
+    },
+    "SocialURL2": {
+      "type": "string"
+    }
+  }
+}

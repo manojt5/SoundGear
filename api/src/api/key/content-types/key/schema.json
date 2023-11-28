@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "keys",
+  "info": {
+    "singularName": "key",
+    "pluralName": "keys",
+    "displayName": "Key"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Google_Analytics": {
+      "type": "string"
+    },
+    "Stripe_Key": {
+      "type": "string"
+    }
+  }
+}

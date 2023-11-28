@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "compliants",
+  "info": {
+    "singularName": "compliant",
+    "pluralName": "compliants",
+    "displayName": "Compliant",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "complaint": {
+      "type": "text"
+    },
+    "phoneNumber": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    }
+  }
+}

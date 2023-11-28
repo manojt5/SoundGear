@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "preorders",
+  "info": {
+    "singularName": "preorder",
+    "pluralName": "preorders",
+    "displayName": "preorder",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "price": {
+      "type": "integer"
+    }
+  }
+}

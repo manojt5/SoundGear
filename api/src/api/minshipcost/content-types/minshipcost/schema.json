@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "minshipcosts",
+  "info": {
+    "singularName": "minshipcost",
+    "pluralName": "minshipcosts",
+    "displayName": "Minshipcost",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Amounttext": {
+      "type": "string"
+    },
+    "Amountthreshhold": {
+      "type": "decimal"
+    }
+  }
+}

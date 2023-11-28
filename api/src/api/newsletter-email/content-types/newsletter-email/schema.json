@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "newsletter_emails",
+  "info": {
+    "singularName": "newsletter-email",
+    "pluralName": "newsletter-emails",
+    "displayName": "NewsletterEmail"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "EmailID": {
+      "type": "email"
+    }
+  }
+}

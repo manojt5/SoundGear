@@ -1,0 +1,10 @@
+import React, { useContext } from "react";
+import ReactDOM from "react-dom/client";
+import "./index.scss";
+import App from "./App";
+import ReactGA from 'react-ga4';
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<App />);
+// console.log("my name is manoj");
+// ReactGA.initialize("G-01Z72QTNWC");
+// ReactGA.send({ hitType: "pageview", page: "/my-path", title: "Custom Title" });
